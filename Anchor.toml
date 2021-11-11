@@ -1,0 +1,12 @@
+[programs.devnet]
+waffleportal = "2DZc1dTm8QAUKjBtbwAGojBkQJT9TfvjEosKM6d9Cf8o"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/preston/.config/solana/id.json"
+
+[scripts]
+test = "node tests/waffleportal.js"
